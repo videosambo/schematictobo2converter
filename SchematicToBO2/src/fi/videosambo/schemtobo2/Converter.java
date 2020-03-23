@@ -45,7 +45,7 @@ public class Converter {
 		FileWriter fileWriter = new FileWriter(saveFile);
 		String s = "[META]\nversion=2.0\nspawnOnBlockType=2\nspawnSunlight=True\nspawnDarkness=False\nspawnWater=False\nspawnLava=False\nunderFill=True\nrandomRotation=True\ndig=True\ntree=False\nbranch=False\nneedsFoundation=True\nrarity=10\ncollisionPercentage=2\nspawnElevationMin=0\nspawnElevationMax=128\nspawnInBiome=All\n[DATA]\n";
 
-		int xOffset = (int) Math.floor(width/2);
+		int xOffset = 0; //(int) Math.floor(width/2);
 		int yOffset = (int) Math.floor(height/2);
 		int zOffset = (int) Math.floor(length/2);
 		
